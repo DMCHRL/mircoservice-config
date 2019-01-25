@@ -1,14 +1,14 @@
-﻿spring:
-	profiles: 
-	  active: 
-	  - dev
+spring: 
+  profiles: 
+    active: 
+    - dev
 ---
 spring:
-	profiles: dev
-	  application: 
-		name: mircoservice-config-dev
+ profiles: dev
+ application: 
+   name: mircoservice-config-dev
 ---
 spring:
-	profiles: test
-	  application: 
-		name: mircoservice-config-test
+  profiles: test
+  application: 
+     name: mircoservice-config-test
