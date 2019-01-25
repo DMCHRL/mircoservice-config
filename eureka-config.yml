@@ -1,4 +1,11 @@
-﻿server:
+spring: 
+  profiles: 
+    active: 
+    - dev
+---
+spring:
+ profiles: dev
+server:
   port: 7001
  
 eureka:
