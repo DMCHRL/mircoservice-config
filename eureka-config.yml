@@ -5,6 +5,8 @@ spring:
 ---
 spring:
  profiles: dev
+ application: 
+    name:eureka-config
 server:
   port: 7001
  
